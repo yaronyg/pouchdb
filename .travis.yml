@@ -15,5 +15,54 @@ before_script:
 
 env:
   matrix:
-  - CLIENT=node npm test
-  - CLIENT=firefox npm test
+  - TRY=0 CLIENT=node npm test
+  - TRY=1 CLIENT=firefox npm test
+  - TRY=2 CLIENT=node npm test
+  - TRY=3 CLIENT=firefox npm test
+  - TRY=4 CLIENT=node npm test
+  - TRY=5 CLIENT=firefox npm test
+  - TRY=6 CLIENT=node npm test
+  - TRY=7 CLIENT=firefox npm test
+  - TRY=8 CLIENT=node npm test
+  - TRY=9 CLIENT=firefox npm test
+  - TRY=10 CLIENT=node npm test
+  - TRY=11 CLIENT=firefox npm test
+  - TRY=12 CLIENT=node npm test
+  - TRY=13 CLIENT=firefox npm test
+  - TRY=14 CLIENT=node npm test
+  - TRY=15 CLIENT=firefox npm test
+  - TRY=16 CLIENT=node npm test
+  - TRY=17 CLIENT=firefox npm test
+  - TRY=18 CLIENT=node npm test
+  - TRY=19 CLIENT=firefox npm test
+  - TRY=20 CLIENT=node npm test
+  - TRY=21 CLIENT=firefox npm test
+  - TRY=22 CLIENT=node npm test
+  - TRY=23 CLIENT=firefox npm test
+  - TRY=24 CLIENT=node npm test
+  - TRY=25 CLIENT=firefox npm test
+  - TRY=26 CLIENT=node npm test
+  - TRY=27 CLIENT=firefox npm test
+  - TRY=28 CLIENT=node npm test
+  - TRY=29 CLIENT=firefox npm test
+  - TRY=30 CLIENT=node npm test
+  - TRY=31 CLIENT=firefox npm test
+  - TRY=32 CLIENT=node npm test
+  - TRY=33 CLIENT=firefox npm test
+  - TRY=34 CLIENT=node npm test
+  - TRY=35 CLIENT=firefox npm test
+  - TRY=36 CLIENT=node npm test
+  - TRY=37 CLIENT=firefox npm test
+  - TRY=38 CLIENT=node npm test
+  - TRY=39 CLIENT=firefox npm test
+  - TRY=40 CLIENT=node npm test
+  - TRY=41 CLIENT=firefox npm test
+  - TRY=42 CLIENT=node npm test
+  - TRY=43 CLIENT=firefox npm test
+  - TRY=44 CLIENT=node npm test
+  - TRY=45 CLIENT=firefox npm test
+  - TRY=46 CLIENT=node npm test
+  - TRY=47 CLIENT=firefox npm test
+  - TRY=48 CLIENT=node npm test
+  - TRY=49 CLIENT=firefox npm test
+  - TRY=50 CLIENT=node npm test
